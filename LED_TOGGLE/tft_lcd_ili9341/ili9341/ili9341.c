@@ -176,7 +176,6 @@ void LCD_initDisplay()
 
 	const uint8_t *addr = initcmd;
 	uint8_t numCommands, cmd, numArgs;
-	uint16_t ms;
 	numCommands = *(addr++); // Number of commands to follow
 	while (numCommands--)
 	{					 // For each command...
